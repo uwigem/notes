@@ -30,7 +30,8 @@ If you think .bashrc is not getting run, then make sure that
 if [ -f "$HOME/.bashrc" ]; then
     . "$HOME/.bashrc"
 fi
-``` is in .profile
+``` 
+is in .profile
 
 Gitignore isn't working! All you have to do is add all the changes you *want* to track,
 like .gitignore and any changes you don't want to lose. Now, commit them, so that
